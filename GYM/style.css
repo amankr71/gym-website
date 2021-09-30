@@ -1,0 +1,92 @@
+body{
+
+    background-color: rgb(128, 18, 128);
+}
+#left h1{
+    border:4px disc black;
+border-radius: 7px;
+position: absolute;
+top: 0px;
+left: 20px;
+color: white;
+font-size: 45px;
+
+}
+#middle{
+    display: block;
+    width: 45%;
+    margin: 10px auto;
+}
+#right{
+    border:2px solid brown;
+    position: absolute;
+    top:20px;
+    right: 20px;
+color: black;
+    
+}
+#con li{
+    display: inline-block;
+    list-style: none;
+}
+#con li a{
+    text-decoration: none;
+    color:white;
+    padding: 17px 10px;
+    font-size: 28px;
+}
+#con li a:hover,#con li a.active{
+    color: grey;
+    text-decoration: underline;
+}
+#form input
+{
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 24px auto;
+    padding: 6px;
+    border:2px solid black;
+}
+#btn1{
+    text-align: center;
+    display: block;
+    width: 60px;
+    margin: 24px auto;
+    border:2px solid black;
+    border-radius: 7px;
+    color: black;
+    cursor: pointer;
+}
+#btn1 :hover{
+    text-decoration: underline;
+    color: blue;
+
+}
+#btn{
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+}
+#btn :hover{
+    text-decoration: underline;
+}
+#left h3{
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    color: blue;
+}
+#foot li{
+    list-style: none;
+}
+#foot{
+    position: absolute;
+    right:20px;
+    top: 635px;
+}
+#copy{
+    position: absolute;
+    right: 150px;
+    top: 690px;
+}
